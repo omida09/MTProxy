@@ -1,0 +1,13 @@
+git clone --recursive https://github.com/TelegramMessenger/MTProxy.git && cd MTProxy
+
+
+منبع: daytrick.ir curl -s https://core.telegram.org/getProxySecret -o proxy-secret
+
+
+منبع: daytrick.ircurl -s https://core.telegram.org/getProxyConfig -o proxy-multi.conf
+
+
+منبع: daytrick.ir head -c 16 /dev/urandom | xxd -ps
+
+
+منبع: daytrick.ir
